@@ -1,0 +1,201 @@
+.image,
+.content,
+.tweet{
+    display: inline-block;
+}
+
+
+.post{
+    background-color: aquamarine;
+    width: 320px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.35);
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    padding: 5px 5px;
+    vertical-align: middle;
+}
+
+.content{
+    color: gray;
+    border: none;
+    background-color: aquamarine;
+    vertical-align: middle;
+    width: 200px;
+}
+
+.tweet{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.friend,
+.friend1,
+.friend2{
+    width: 100px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.35);
+}
+
+.friend2{
+    margin-right: 50px;
+}
+
+.friend{
+    margin-left: 20px;
+}
+
+.profile,
+.name,
+.friend-number,
+.add-friend{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name,
+.friend-number,
+.add-friend{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.friend-number{
+    font-size: 12px;
+    color: gray;
+}
+
+.add-friend{
+    font-size: 12px;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.second,
+.third,
+.fourth,
+.fiveth,
+.sixth,
+.seventh{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.fourth{
+    margin-bottom: 50px;
+}
+
+.cricket-ball,
+.author-info,
+.button{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+.author-info{
+    margin-left: 5px;
+}
+
+.name2,
+.type,
+.popular{
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+
+.name2{
+    font-weight: bold;
+}
+
+.type,
+.popular{
+    color: gray;
+}
+
+.follow{
+    margin-top: 10px;
+    margin-left: 90px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.youtube-content,
+.image-ground{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 4px;
+}
+
+.ground{
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.vedio-title,
+.channel-name,
+.status{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+
+.vedio-title{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.channel-name,
+.status{
+    font-size: 12px;
+    color: gray;
+}
+
+.channel-name{
+    margin-bottom: 3px;
+}
